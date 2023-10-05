@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-image:url(../imagens/retrato-de-homem-sorrindo-no-restaurante.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.menu a {
+    background-color: rgb(223, 196, 17);
+    padding: 5px 10px;
+    width: 15%;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+}
+
+
+
+.img {
+    
+    margin: 0 auto;
+    width: 500px;
+    
+}
+
+img {
+    width: 100%;
+}
+
+.img p {
+    background-color: rgb(223, 196, 17);
+    padding: 5px 10px;
+    margin-top: 0;
+    text-align: center;
+}
+
+.texto {
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+}
+
+.tacos, .pizzas {
+    background-color: rgb(223, 196, 17);
+    padding: 5px 10px;
+    margin: 10px;
+    width: 240px;
+    text-align: center;
+}
+
+.real{
+    font-size: 25px;
+    margin-top: 0;
+}
