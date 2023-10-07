@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+/* tablet */
+
+@media screen and (min-width:767px) and (max-width:1023px){
+    .menu {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .menu a{
+        width: 25%;
+        justify-content: space-around;
+    }
+
+    article{
+        display: flex;
+        flex-flow: wrap;
+    }
+
+    .cards{
+        display: flex;
+        flex-flow: wrap;
+        width: 40%;
+        margin-top: 20px;
+    }
+
+    .cardpimg{
+        width: 40%;
+        margin: 0 auto;
+    }
+}
+
+/* desktop */
+
+@media screen and (min-width:1024px){
+    .menu {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .menu a{
+        width: 25%;
+        justify-content: space-around;
+    }
+
+    article{
+        display: flex;
+        flex-flow: wrap;
+    }
+
+    .cards{
+        display: flex;
+        flex-flow: wrap;
+        width: 40%;
+        margin-top: 20px;
+        justify-content: space-between;
+    }
+
+    .imgheader{
+        display: flex;
+        
+    }
+
+    .img {
+        
+        width: 40%;
+    }
+
+    .img p {
+        display: block;
+    }
+
+    .texto{
+        width: 40%;
+        display: block;
+        position: relative;
+        
+    }
+
+    .tacos, .pizzas{
+        width: 350px;
+    }
+
+    section{
+        display: flex;
+    }
+
+    .cardpizza{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .cardpimg {
+        width: 40%;  
+    }
+
+    .descricao {
+        width: 40%;        
+    }
+
+}
