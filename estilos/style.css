@@ -96,12 +96,22 @@ img {
 .cards {
     margin: 0 auto;
     width: 80%;
+    height: 350px;
    background-image: radial-gradient(white, rgba(255, 255, 255, 0.477));
    text-align: center;
    border-radius: 10px;
    margin-bottom: 20px;
    padding: 7px;
    box-shadow: 6px 5px 12px rgba(0, 0, 0, 0.467);
+}
+
+.cards p {
+    text-align: justify;
+}
+
+.complemento ul li{
+    text-align: justify;
+    font-weight: 500;
 }
 
 .imgp{
@@ -131,6 +141,22 @@ img {
     margin-bottom: 0;
     font-weight: 300;
     font-style: italic;
+}
+
+.btn{
+    background-color: rgb(223, 196, 17);
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    margin:0 auto;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.btn:hover{
+    background-color: white;
+    color:  rgb(223, 196, 17);
+    border: 2px solid  rgb(223, 196, 17);
 }
 
 .footer {
